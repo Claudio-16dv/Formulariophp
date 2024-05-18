@@ -8,11 +8,22 @@
 </head>
 <body>
     <header>
-        <h1>Sobre Você</h1>
+        <h1>Formulário Teste</h1>
     </header>
-    <form action="form.php" method="post">
+    <section>
+        <form action="form.php" method="post">
+        <label for="nome">Nome Completo</label>
+        <input type="text" name="nome" id="idnome">
+        <label for="data">Data de Nascimento</label>
+        <input type="date" name="data" id="iddata">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="idemail">
+        <label for="bio">Sobre Você</label>
+        <textarea name="bio" id="idbio" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar">
+        </form>
+    </section>
 
-    </form>
 
 </body>
 </html>
