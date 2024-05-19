@@ -34,9 +34,10 @@
 
     // Salva os dados no arquivo JSON
     if (file_put_contents($arquivo, $json)) {
-        echo "Dados salvos com sucesso!";
+        header('Location: exibindodados.php');
+    exit();
     } else {
         echo "Erro ao salvar os dados.";
     }
+    
 ?>
-<p><a href="javascript:history.go(-1)">Voltar para pagina anterior</a></p>

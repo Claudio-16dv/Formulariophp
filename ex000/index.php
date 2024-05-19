@@ -20,10 +20,9 @@
         <input type="email" name="email" id="idemail">
         <label for="bio">Sobre Você</label>
         <textarea name="bio" id="idbio" cols="30" rows="10"></textarea>
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" >
         </form>
     </section>
-
 
 </body>
 </html>
