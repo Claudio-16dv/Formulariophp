@@ -1,10 +1,10 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
     // Captura os dados do formulário
-    $nome = $_POST['nome'];
-    $email = $_POST['email'];
-    $bio = $_POST['bio'];
-   
+    $nome = isset($_POST['nome']) ? $_POST['nome'] : '';
+    $data = isset($_POST['data']) ? $_POST['data'] : '';
+    $email = isset($_POST['email']) ? $_POST['email'] : '';
+    $bio = isset($_POST['bio']) ? $_POST['bio'] : '';
     // Cria um array com os dados
     $dados = array(
         "nome" => $nome,
@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Codifica o array em formato JSON
-    $json = json_encode($dados_existentes, JSON_PRETTY_PRINT);
+    $json = json_encode($dados_existentes, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
 
     // Salva os dados no arquivo JSON
     if (file_put_contents($arquivo, $json)) {
@@ -38,8 +38,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo "Erro ao salvar os dados.";
     }
-} else {
-    echo "Método de requisição inválido.";
-}
 ?>
 <p><a href="javascript:history.go(-1)">Voltar para pagina anterior</a></p>
