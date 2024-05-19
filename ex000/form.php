@@ -2,7 +2,6 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Captura os dados do formulário
     $nome = $_POST['nome'];
-    $data = $_POST[ 'data' ];
     $email = $_POST['email'];
     $bio = $_POST['bio'];
    
