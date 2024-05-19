@@ -1,86 +1,23 @@
 [
     {
-        "nome": "josé adão",
-        "data": "0333-02-12",
-        "email": "gggg@gmail.com",
-        "bio": "vão dão !!!!!"
-    },
-    {
-        "nome": "josé adão",
-        "data": "0333-02-12",
-        "email": "gggg@gmail.com",
-        "bio": "vão dão !!!!!"
-    },
-    {
-        "nome": "josé adão",
-        "data": "0333-02-12",
-        "email": "gggg@gmail.com",
-        "bio": "vão dão !!!!!"
-    },
-    {
-        "nome": "josé adão",
-        "data": "0333-02-12",
-        "email": "gggg@gmail.com",
-        "bio": "vão dão !!!!!"
-    },
-    {
-        "nome": "josé adão",
-        "data": "0333-02-12",
-        "email": "gggg@gmail.com",
-        "bio": "vão dão !!!!!"
-    },
-    {
         "nome": "Claudio Ferreira da Silva Junior",
-        "data": "0222-02-22",
+        "data": "2001-04-12",
+        "idade": 23,
         "email": "gggg@gmail.com",
-        "bio": "adão"
-    },
-    {
-        "nome": "Claudio Ferreira da Silva Junior",
-        "data": "0222-02-22",
-        "email": "gggg@gmail.com",
-        "bio": "adão"
-    },
-    {
-        "nome": "Claudio Ferreira da Silva Junior",
-        "data": "0222-02-22",
-        "email": "gggg@gmail.com",
-        "bio": "adão"
+        "bio": "olá"
     },
     {
         "nome": "josé adão",
-        "data": "3333-03-31",
+        "data": "2023-08-12",
+        "idade": 0,
         "email": "gggg@gmail.com",
-        "bio": "adão"
+        "bio": "dengo"
     },
     {
-        "nome": "josé adão",
-        "data": "0111-11-11",
+        "nome": "jenifer",
+        "data": "2023-01-12",
+        "idade": 1,
         "email": "gggg@gmail.com",
-        "bio": "adão"
-    },
-    {
-        "nome": "josé adão",
-        "data": "33333-03-31",
-        "email": "gggg@gmail.com",
-        "bio": "era dão"
-    },
-    {
-        "nome": "josé adão",
-        "data": "4442-05-31",
-        "email": "jjjjj@gmail.com",
-        "bio": "google!!"
-    },
-    {
-        "nome": "josé adão",
-        "data": "6556-07-06",
-        "email": "gggg@gmail.com",
-        "bio": "google"
-    },
-    {
-        "nome": "josé adão",
-        "data": "0544-04-05",
-        "email": "gggg@gmail.com",
-        "bio": "gfgfgfgf"
+        "bio": "oi"
     }
 ]

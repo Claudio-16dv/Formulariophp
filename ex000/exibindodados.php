@@ -23,6 +23,7 @@ if (file_exists($arquivo)) {
         foreach ($dados_salvos as $dados) {
             echo "<li><strong>Nome:</strong> " . $dados['nome'] . "</li>";
             echo "<li><strong>Data:</strong> " . $dados['data'] . "</li>";
+            echo "<li><strong>Idade:</strong> " . $dados['idade'] . " anos</li>";
             echo "<li><strong>Email:</strong> " . $dados['email'] . "</li>";
             echo "<li><strong>Bio:</strong> " . $dados['bio'] . "</li>";
             echo "<hr>";

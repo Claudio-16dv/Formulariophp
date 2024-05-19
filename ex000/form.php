@@ -1,4 +1,11 @@
 <?php
+    function calcularIdade($data) {
+        $dataAtual = new DateTime();
+        $data = new DateTime($data);
+        $idade = $dataAtual->diff($data);
+        return $idade->y;
+    }
+
 
     // Captura os dados do formulário
     $nome = isset($_POST['nome']) ? $_POST['nome'] : '';
@@ -6,9 +13,13 @@
     $email = isset($_POST['email']) ? $_POST['email'] : '';
     $bio = isset($_POST['bio']) ? $_POST['bio'] : '';
     // Cria um array com os dados
+
+    $idade = calcularIdade($data);
+
     $dados = array(
         "nome" => $nome,
         "data" => $data,
+        "idade" => $idade,
         "email" => $email,
         "bio" => $bio
     );
