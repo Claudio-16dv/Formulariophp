@@ -7,8 +7,6 @@
 <body>
 
 <?php
-
-
 $arquivo = 'dados.json';
 
 if (file_exists($arquivo)) {
@@ -35,7 +33,6 @@ if (file_exists($arquivo)) {
 } else {
     echo "<p>O arquivo de dados não foi encontrado.</p>";
 }
-
 ?>
 <p><a href="index.php">Voltar para o formulário</a></p>
 </body>

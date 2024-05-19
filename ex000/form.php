@@ -1,4 +1,5 @@
 <?php
+    //Função para calculo da idade
     function calcularIdade($data) {
         $dataAtual = new DateTime();
         $data = new DateTime($data);
@@ -12,10 +13,11 @@
     $data = isset($_POST['data']) ? $_POST['data'] : '';
     $email = isset($_POST['email']) ? $_POST['email'] : '';
     $bio = isset($_POST['bio']) ? $_POST['bio'] : '';
-    // Cria um array com os dados
-
+    
+    // Variavel usando função de callculo de idade para criar um array
     $idade = calcularIdade($data);
 
+    // Cria um array com os dados
     $dados = array(
         "nome" => $nome,
         "data" => $data,
