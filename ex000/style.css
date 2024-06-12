@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Arial;
     box-sizing: border-box;
 }
 
@@ -20,6 +20,13 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+}
+
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10000;
 }
 
 header, main, section, article {
