@@ -103,5 +103,12 @@
         "idade": 31,
         "email": "slrondinelli@gmail.com",
         "bio": "3333333"
+    },
+    {
+        "nome": "Claudio Ferreira da Silva Junior",
+        "data": "1993-06-15",
+        "idade": 31,
+        "email": "slrondinelli@gmail.com",
+        "bio": "rrrrrrrr"
     }
 ]
