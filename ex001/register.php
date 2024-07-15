@@ -21,5 +21,25 @@
             <input type="submit" value="Criar Conta" >
             </form>
         </section>
+
+        <?php 
+            $conexao = mysqli_connect("localhost","root","1234","cadastro");
+
+            $email = $_POST['email'];
+            $email = mysqli_real_escape_string($conexao, $email);
+            $sql = "SELECT email FROM cadastro.users WHERE email='$email'";
+            $retorno = mysqli_query($conexao, $sql);
+
+            if(mysqli_num_rows($retorno)>0){
+                echo "Usuário Cadastrado";
+            } else {
+                $nome = $_POST['nome'];
+                $email = $_POST['email'];
+                $password = $_POST['password'];
+
+                $sql = "INSERT INTO cadastro.users(nome,email,password) values('$nome', '$email', '$password')";
+                $resultado = mysqli_query($conexao, $sql);
+            }
+        ?>
 </body>
 </html>
