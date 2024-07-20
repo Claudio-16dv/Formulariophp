@@ -11,7 +11,7 @@
         <h1>Página de Login</h1>
     </header>
         <section>
-            <form action="test.php" method="post">
+            <form action="alth.php" method="post">
             <label for="email">E-mail:</label>
             <input type="email" name="email" id="idemail">
             <label for="password">Senha:</label>

@@ -23,11 +23,7 @@
         </section>
         <?php 
             if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-                $conn = new mysqli("localhost", "root", "1111", "cadastro");
-                
-                if ($conn->connect_error) {
-                    die("Conexão falhou: " . $conn->connect_error);
-                }
+                include('conn.php');
                 
                 $nome = isset($_POST['nome']) ? $_POST['nome'] : '';
                 $email = isset($_POST['email']) ? $_POST['email'] : '';
